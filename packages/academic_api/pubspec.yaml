@@ -1,0 +1,7 @@
+name: academic_api
+description: Provider contracts, canonical timetable models, and HTTP primitives for HITA Omni academic providers.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.5

@@ -1,0 +1,512 @@
+{
+  "@@locale": "zh",
+  "navToday": "今日",
+  "navTimetable": "时间表",
+  "navAccount": "我的",
+  "sidebarExpand": "展开侧边栏",
+  "sidebarCollapse": "收起侧边栏",
+  "commonLogin": "登录",
+  "commonLogout": "退出登录",
+  "commonCancel": "取消",
+  "commonDone": "完成",
+  "commonClose": "关闭",
+  "windowMinimize": "最小化",
+  "windowMaximize": "最大化",
+  "windowRestore": "还原窗口",
+  "commonRetry": "重试",
+  "commonSync": "同步课表",
+  "commonSyncing": "同步中…",
+  "commonLoginAccount": "登录账号",
+  "commonNotSet": "未设置",
+  "commonNotAvailable": "未获取",
+  "commonWeek": "第 {week} 周",
+  "@commonWeek": {
+    "placeholders": {
+      "week": {
+        "type": "int"
+      }
+    }
+  },
+  "commonCurrentWeek": "本周",
+  "commonDelete": "删除",
+  "commonRemove": "移除",
+  "commonAdd": "添加",
+  "commonLoading": "加载中…",
+  "campusShenzhenLabel": "深圳校区",
+  "campusShenzhenShort": "深圳",
+  "campusShenzhenNote": "使用深圳校区新版教务账号登录，会话仅保存在本机。",
+  "campusHarbinLabel": "本部校区",
+  "campusHarbinShort": "本部",
+  "campusHarbinNote": "本部教务使用 WebVPN 网页认证，当前版本暂未接入。",
+  "campusWeihaiLabel": "威海校区",
+  "campusWeihaiShort": "威海",
+  "campusWeihaiNote": "威海教务使用 WebVPN 网页认证，当前版本暂未接入。",
+  "studentTypeUndergraduate": "本科生",
+  "studentTypeGraduate": "研究生",
+  "themeSystem": "跟随系统",
+  "themeLight": "浅色",
+  "themeDark": "深色",
+  "greetingNight": "夜深了",
+  "greetingMorning": "早上好",
+  "greetingAfternoon": "下午好",
+  "greetingEvening": "晚上好",
+  "dateWeekdayLong1": "星期一",
+  "dateWeekdayLong2": "星期二",
+  "dateWeekdayLong3": "星期三",
+  "dateWeekdayLong4": "星期四",
+  "dateWeekdayLong5": "星期五",
+  "dateWeekdayLong6": "星期六",
+  "dateWeekdayLong7": "星期日",
+  "dateWeekdayShort1": "一",
+  "dateWeekdayShort2": "二",
+  "dateWeekdayShort3": "三",
+  "dateWeekdayShort4": "四",
+  "dateWeekdayShort5": "五",
+  "dateWeekdayShort6": "六",
+  "dateWeekdayShort7": "日",
+  "timeJustNow": "刚刚",
+  "timeMinutesAgo": "{count} 分钟前",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "{count} 小时前",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeTodayAt": "今天 {time}",
+  "@timeTodayAt": {
+    "placeholders": {
+      "time": {
+        "type": "DateTime",
+        "format": "Hm"
+      }
+    }
+  },
+  "timeYesterdayAt": "昨天 {time}",
+  "@timeYesterdayAt": {
+    "placeholders": {
+      "time": {
+        "type": "DateTime",
+        "format": "Hm"
+      }
+    }
+  },
+  "durationDays": "{count} 天",
+  "@durationDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "durationHours": "{count} 小时",
+  "@durationHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "durationMinutes": "{count} 分钟",
+  "@durationMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "durationLessThanMinute": "不到 1 分钟",
+  "dashboardEditPanels": "编辑面板",
+  "dashboardWeekNotStarted": "学期未开始",
+  "dashboardWeekEnded": "学期已结束",
+  "dashboardSyncing": "正在同步",
+  "dashboardSyncFailed": "同步失败",
+  "dashboardEmptyTitle": "今日面板是空的",
+  "dashboardEmptyMessage": "添加需要的面板，或恢复默认布局。",
+  "dashboardAddPanel": "添加面板",
+  "dashboardResetDefault": "恢复默认",
+  "dashboardEditTitle": "编辑今日面板",
+  "dashboardEditSubtitle": "拖动排序，移除不需要的面板。",
+  "dashboardAddPanelSection": "添加面板",
+  "dashboardAllPanelsAdded": "所有面板都已添加。",
+  "dashboardRemovePanel": "移除面板",
+  "dashboardAddPanelTooltip": "添加 {title}",
+  "@dashboardAddPanelTooltip": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardLoginRequired": "请先登录教务账号",
+  "dashboardSynced": "课表已更新",
+  "panelNextClassTitle": "下一节课",
+  "panelNextClassOngoingTitle": "正在上课",
+  "panelNextClassDescription": "正在上的课或接下来最近的一节课。",
+  "panelNextClassSyncTooltip": "同步课表",
+  "panelNextClassNotLoggedIn": "未登录",
+  "panelNextClassLoginPrompt": "登录教务账号后，这里会显示今天的课程和下一节课。",
+  "panelNextClassGoLogin": "去登录",
+  "panelNextClassNoCourses": "接下来 14 天没有课程安排。",
+  "panelNextClassNotSynced": "还没有同步课表。",
+  "panelNextClassPeriods": "第 {start}-{end} 节",
+  "@panelNextClassPeriods": {
+    "placeholders": {
+      "start": {
+        "type": "int"
+      },
+      "end": {
+        "type": "int"
+      }
+    }
+  },
+  "panelNextClassWeeks": "第 {weeks} 周",
+  "@panelNextClassWeeks": {
+    "placeholders": {
+      "weeks": {
+        "type": "String"
+      }
+    }
+  },
+  "panelNextClassEndsIn": "还有 {duration} 下课",
+  "@panelNextClassEndsIn": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "panelNextClassStartsIn": "还有 {duration} 开始",
+  "@panelNextClassStartsIn": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "panelNextClassOngoing": "进行中",
+  "panelNextClassUpcoming": "即将开始",
+  "panelNextClassSync": "同步课表",
+  "panelTodayScheduleTitle": "今日课程",
+  "panelTodayScheduleDescription": "今天全部课程的紧凑时间线。",
+  "panelTodayScheduleCount": "{count} 节",
+  "@panelTodayScheduleCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "panelTodayScheduleLoginTitle": "登录后查看今日课程",
+  "panelTodayScheduleLoginMessage": "连接教务账号，自动同步课表与教学周。",
+  "panelTodayScheduleLoginAction": "登录账号",
+  "panelTodayScheduleSyncNow": "立即同步",
+  "panelTodayScheduleNoCoursesTitle": "今天没有课程",
+  "panelTodayScheduleNoCoursesMessage": "享受空闲的一天，或者去完整课表看看这周安排。",
+  "panelTodayScheduleViewFull": "查看完整课表",
+  "panelTodayScheduleOngoing": "进行中",
+  "panelTodaySchedulePeriods": "第 {start}-{end} 节",
+  "@panelTodaySchedulePeriods": {
+    "placeholders": {
+      "start": {
+        "type": "int"
+      },
+      "end": {
+        "type": "int"
+      }
+    }
+  },
+  "panelWeekProgressTitle": "本周进度",
+  "panelWeekProgressDescription": "当前教学周、学期进度与剩余天数。",
+  "panelWeekProgressWeek": "第 {week} 周",
+  "@panelWeekProgressWeek": {
+    "placeholders": {
+      "week": {
+        "type": "int"
+      }
+    }
+  },
+  "panelWeekProgressTotalWeeks": "共 {count} 周",
+  "@panelWeekProgressTotalWeeks": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "panelWeekProgressTermEnded": "本学期已结束。",
+  "panelWeekProgressTermNotStarted": "本学期尚未开始。",
+  "panelWeekProgressDaysLeft": "本周还剩 {count} 天",
+  "@panelWeekProgressDaysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "panelWeekProgressEstimated": "教学周为估算值",
+  "panelWeekProgressEnded": "已结束",
+  "panelWeekProgressNotStarted": "未开始",
+  "panelAccountTitle": "账户",
+  "panelAccountDescription": "登录状态与最近一次课表同步时间。",
+  "panelAccountLoginTooltip": "登录账号",
+  "panelAccountSyncTooltip": "同步课表",
+  "panelAccountNotLoggedIn": "未登录",
+  "panelAccountConnectHint": "连接教务账号以同步课表",
+  "panelAccountLogin": "登录",
+  "panelAccountSyncing": "正在同步课表…",
+  "panelAccountNotSynced": "尚未同步课表",
+  "panelAccountSyncedAt": "课表同步于 {time}",
+  "@panelAccountSyncedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "panelAccountSettings": "账户与设置",
+  "panelQuickActionsTitle": "快捷操作",
+  "panelQuickActionsDescription": "快速打开时间表、同步课表或切换外观。",
+  "panelQuickActionsOpenTimetable": "打开时间表",
+  "panelQuickActionsSync": "同步课表",
+  "panelQuickActionsLoginSync": "登录并同步",
+  "panelQuickActionsAccount": "账户",
+  "panelQuickActionsAppearance": "外观：{mode}",
+  "@panelQuickActionsAppearance": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "panelQuickActionsSynced": "课表已同步",
+  "panelQuickActionsBusy": "同步中…",
+  "pluginCoreName": "核心面板",
+  "pluginCoreDescription": "今日课程、下一节课、教学周与账户状态。",
+  "timetableTitle": "时间表",
+  "timetableSubtitle": "查看本地课表，按周浏览课程。",
+  "timetableSubtitleWithTerm": "{term} · {campus}",
+  "@timetableSubtitleWithTerm": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      },
+      "campus": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableSyncTooltip": "同步课表",
+  "timetableLoginTooltip": "登录账号",
+  "timetableLoginRequired": "请先登录教务账号",
+  "timetablePreviousWeek": "上一周",
+  "timetableNextWeek": "下一周",
+  "timetableThisWeek": "本周",
+  "timetableSelectTerm": "选择学期",
+  "timetableTermPlaceholder": "选择学期",
+  "timetableWeekRange": "{start} - {end}",
+  "@timetableWeekRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableCourseCount": "{count} 门课",
+  "@timetableCourseCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timetableEstimated": "教学周为估算值",
+  "timetableRetry": "重试",
+  "timetableLoginTitle": "登录后同步课表",
+  "timetableLoginMessage": "连接深圳校区教务账号，课程会自动同步到今日和时间表。",
+  "timetableSyncNow": "同步课表",
+  "timetableSyncNowBusy": "同步中…",
+  "timetableLoginAction": "登录账号",
+  "timetableMissingSlots": "课表缺少节次信息",
+  "timetableDetailTime": "上课时间",
+  "timetableDetailWeeks": "教学周",
+  "timetableDetailLocation": "地点",
+  "timetableDetailTeacher": "教师",
+  "timetableDetailNotFilled": "未填写",
+  "timetableDetailClose": "关闭",
+  "timetableAddTooltip": "添加课表",
+  "timetableAddTitle": "添加课表",
+  "timetableAddImportTitle": "导入课表",
+  "timetableAddImportSubtitle": "从教务导入指定学期",
+  "timetableAddIcsTitle": "导入 ICS",
+  "timetableAddIcsSubtitle": "从 ICS 文件导入课表",
+  "timetableAddBlankTitle": "新建空白课表",
+  "timetableAddBlankSubtitle": "手动创建一份本地课表",
+  "timetableAddComingSoon": "即将支持",
+  "timetableImportSubtitle": "选择要导入的学期",
+  "timetableImportNoSession": "需要登录教务账号",
+  "timetableImportNoSessionMessage": "登录后可在此导入教务课表。",
+  "timetableImportFailed": "导入失败",
+  "timetableImportRetry": "重试",
+  "timetableImportEmpty": "暂无可导入学期",
+  "timetableImportEmptyMessage": "教务系统未返回可选学期。",
+  "timetableImportExisting": "已有本地课表，导入会更新",
+  "timetableImportSuccess": "课表导入完成",
+  "timetableManageTooltip": "课表管理",
+  "timetableManagerTitle": "课表管理",
+  "timetableManagerSubtitle": "{count} 份本地课表",
+  "@timetableManagerSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timetableManagerEmpty": "还没有本地课表",
+  "timetableManagerEmptyMessage": "同步教务后，每学期会生成一份本地课表，可在这里切换、重命名或删除。",
+  "timetableManagerCurrent": "当前",
+  "timetableManagerActions": "课表操作",
+  "timetableManagerRename": "重命名",
+  "timetableManagerDelete": "删除",
+  "timetableManagerSaveFailed": "保存失败，请稍后重试",
+  "timetableRenameTitle": "重命名课表",
+  "timetableRenameLabel": "课表名称",
+  "timetableRenameEmpty": "名称不能为空",
+  "timetableRenameCancel": "取消",
+  "timetableRenameSave": "保存",
+  "timetableDeleteTitle": "删除课表",
+  "timetableDeleteMessage": "确定删除“{name}”？本地课程数据将一并移除。",
+  "@timetableDeleteMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "timetableDeleteCancel": "取消",
+  "timetableDeleteConfirm": "删除",
+  "accountTitle": "我的",
+  "accountSubtitle": "账号、同步和外观设置。",
+  "accountConnectTitle": "连接你的教务账号",
+  "accountConnectMessage": "同步课表、教学周和今日课程。",
+  "accountLogin": "登录",
+  "accountErrorDismiss": "关闭",
+  "accountSectionAccount": "账号",
+  "accountNotLoggedIn": "尚未登录",
+  "accountNotLoggedInMessage": "当前版本已接入深圳校区教务。登录后即可同步课表。",
+  "accountLoginAccount": "登录教务账号",
+  "accountCampus": "校区",
+  "accountStudentId": "学号",
+  "accountSchool": "学院",
+  "accountLoginTime": "登录时间",
+  "accountSyncStatus": "课表状态",
+  "accountSyncing": "同步中…",
+  "accountNotSynced": "尚未同步",
+  "accountSynced": "已同步",
+  "accountSync": "同步课表",
+  "accountRelogin": "重新登录",
+  "accountLogout": "退出登录",
+  "accountLogoutTitle": "退出登录？",
+  "accountLogoutMessage": "本地课表会保留，但需要重新登录才能同步教务更新。",
+  "accountLogoutAction": "退出",
+  "accountLoggedOut": "已退出登录",
+  "accountConnected": "已连接",
+  "accountSyncError": "同步异常",
+  "accountLastSynced": "上次同步 {time}",
+  "@accountLastSynced": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "accountAppearance": "外观",
+  "accountPlugins": "扩展",
+  "accountNoPlugins": "没有注册扩展。",
+  "accountAbout": "关于",
+  "accountAboutText": "当前已接入深圳校区新版教务接口；本部与威海校区需要 WebVPN 网页认证，将在后续版本接入。",
+  "accountSettings": "账户与设置",
+  "accountPluginPanels": "{count} 个面板",
+  "@accountPluginPanels": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "accountPluginPages": "{count} 个页面",
+  "@accountPluginPages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "loginTitle": "登录账号",
+  "loginBrandTitle": "连接教务系统",
+  "loginBrandSubtitle": "登录后自动同步课表与教学周。",
+  "loginCampus": "校区",
+  "loginAccount": "教务账号",
+  "loginAccountHint": "学号或统一身份认证账号",
+  "loginPassword": "密码",
+  "loginShowPassword": "显示密码",
+  "loginHidePassword": "隐藏密码",
+  "loginAccountRequired": "请输入教务账号",
+  "loginPasswordRequired": "请输入密码",
+  "loginSubmit": "登录并同步",
+  "loginWebUnsupported": "浏览器跨域策略禁止直接访问教务接口，Web 端暂不支持登录。请使用 Android、iOS 或桌面端。",
+  "loginWebUnsupportedButton": "Web 端暂不支持登录",
+  "loginUnsupportedCampusButton": "暂不支持此校区",
+  "loginPrivacy": "密码只用于本次登录，不会保存在设备上。登录会话保存在本机。",
+  "datePatternMonthDay": "{date}",
+  "@datePatternMonthDay": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "MMMd"
+      }
+    }
+  },
+  "datePatternFull": "{date}",
+  "@datePatternFull": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMMMMd"
+      }
+    }
+  },
+  "datePatternWithWeekday": "{date}",
+  "@datePatternWithWeekday": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "MMMEd"
+      }
+    }
+  },
+  "datePatternDateTime": "{date} {time}",
+  "@datePatternDateTime": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "MMMd"
+      },
+      "time": {
+        "type": "DateTime",
+        "format": "Hm"
+      }
+    }
+  }
+}

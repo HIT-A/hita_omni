@@ -1,0 +1,11 @@
+name: provider_hit
+description: Static HIT Shenzhen, Harbin, and Weihai academic providers for HITA Omni.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  academic_api:
+    path: ../academic_api

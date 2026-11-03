@@ -1,11 +1,11 @@
 {
-    "name": "hita_omni",
-    "short_name": "hita_omni",
+    "name": "HITA Omni",
+    "short_name": "HITA Omni",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#F3F5F9",
+    "theme_color": "#1B5E9E",
+    "description": "A minimal, extensible campus assistant for HIT students.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
